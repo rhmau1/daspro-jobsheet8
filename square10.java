@@ -6,7 +6,7 @@ public class square10 {
         System.out.print("Masukkan nilai N = ");
         int N = sc.nextInt();
         for (int iOuter = 1; iOuter <= N; iOuter++) {
-            for (int iInner = 0; iInner <= N; iInner++) {
+            for (int iInner = 1; iInner <= N; iInner++) {
                 System.out.print("*");
             }
             System.out.println();
